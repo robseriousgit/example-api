@@ -1,0 +1,25 @@
+api:
+    build: ../api
+    command: npm run-script start-dev
+    environment:
+        - API_KEY=AKIAJ6MTQOGVKNW5NICQ
+        - DATA_URI=http://db:5000
+    ports:
+        - 9001:5000
+    links:
+        - db
+    volumes:
+        - ../api:/src
+        - /src/node_modules
+        
+db:
+    build: ../db
+    command: npm run-script start-dev
+    environment:
+        - PORT=5000
+        - DATABASE_NAME=example.sqlite3
+    ports:
+        - 9002:5000
+    volumes:
+        - ../db:/src
+        - /src/node_modules

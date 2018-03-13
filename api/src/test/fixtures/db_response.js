@@ -1,0 +1,4 @@
+export const dbResponse = [
+  {"item_name":"VW Camper Westfalia - Right Hand Drive","lat":52.0251999,"lng":0.25670886,"item_url":"cambridge/hire-vw-camper-westfalia--right-hand-drive-28585278","img_urls":"[\"vw-camper-westfalia-right-hand-drive-50038971.jpg\",\"vw-camper-westfalia-right-hand-drive-84467357.jpg\",\"vw-camper-westfalia-right-hand-drive-73757654.jpg\",\"vw-camper-westfalia-right-hand-drive-98060945.jpg\",\"vw-camper-westfalia-right-hand-drive-77106052.jpg\",\"vw-camper-westfalia-right-hand-drive-75261207.jpg\",\"vw-camper-westfalia-right-hand-drive-10266646.jpg\",\"vw-camper-westfalia-right-hand-drive-12336416.jpg\"]","distance":6.410812872633238},
+  {"item_name":"Ndje Dje Ekx Ek ","lat":51.8141708,"lng":0.0108756004,"item_url":"london/hire-ndje-dje-ekx-ek--11118059","img_urls":"[\"ndje-dje-ekx-ek--07737106.jpg\"]","distance":11.53673715369793}
+]
