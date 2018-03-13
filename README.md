@@ -3,7 +3,7 @@
 
 ## General
 
-This is a dockerised search endpoint containing an API and a DB application.
+This is a dockerised location-based search endpoint containing an API and a DB application.
 
 The apps use Restify and Chai and have been built with a modular TDD approach.  
 
